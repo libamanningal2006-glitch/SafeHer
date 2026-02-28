@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SafeHer - Trusted Contacts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="dashboard-box">
+        <h1>Trusted Contacts</h1>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Contact Name" required>
+            <input type="tel" id="phone" placeholder="Phone Number" required>
+            <button type="submit">Save Contact</button>
+        </form>
+
+        <ul id="contactList"></ul>
+
+        <button class="back-btn" onclick="goBack()">Back to Dashboard</button>
+    </div>
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>

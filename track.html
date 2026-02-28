@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SafeHer - Track Your Path</title>
+  <link rel="style" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    #map {
+      height: 500px;
+      width: 90%;
+      max-width: 900px;
+      margin: 20px auto;
+      border-radius: 10px;
+    }
+    .controls button {
+      margin: 5px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 8px;
+      background-color: #7b2ff7;
+      color: white;
+      cursor: pointer;
+    }
+    .controls button:hover {
+      background-color: #5a1ad3;
+    }
+  </style>
+</head>
+<body>
+
+<h1>SafeHer - Track Your Route</h1>
+<div id="map"></div>
+<div class="controls">
+  <button id="startTracking">Start Tracking</button>
+  <button id="pauseTracking">Pause Tracking</button>
+  <button id="resumeTracking">Resume Tracking</button>
+  <button id="stopTracking">Stop Tracking</button>
+  <button id="clearTrack">Clear Track</button>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Report Harassment - SafeHer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="dashboard-box">
+        <h1>Report Harassment</h1>
+
+        <form id="reportForm">
+            <input type="text" id="name" placeholder="Your Name (optional)">
+
+            <input type="text" id="location" placeholder="Location of Incident" required>
+
+            <select id="type" required>
+                <option value="">Type of Harassment</option>
+                <option>Verbal</option>
+                <option>Physical</option>
+                <option>Online</option>
+                <option>Stalking</option>
+                <option>Other</option>
+            </select>
+
+            <textarea id="description" placeholder="Describe what happened" required></textarea>
+
+            <button type="submit">Submit Report</button>
+        </form>
+
+        <p id="reportStatus"></p>
+
+        <button class="back-btn" onclick="goBack()">Back to Dashboard</button>
+    </div>
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>

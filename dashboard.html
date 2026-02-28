@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SafeHer Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="dashboard-box">
+        <h1>SafeHer</h1>
+        <p class="tagline">Stay Safe. Stay Strong.</p>
+
+        <div class="grid">
+            <button class="sos" onclick="sendSOS()">SOS</button>
+            <button onclick="openReport()">Report Harassment</button>
+            <button onclick="findPolice()">Nearby Police</button>
+            <button onclick="findHospitals()">Nearby Hospitals</button>
+            <button class="dashboard-btn" onclick="openSafeMap()">Safe Map</button>
+            <button onclick="openContacts()">Save Contacts</button>
+            <button onclick="startFakeCall()">Fake Call</button>
+             <button class="dashboard-btn" onclick="openTrackingMap()">Track Your Path</button>
+        </div>
+
+        <p id="status"></p>
+    </div>
+</div>
+
+<script src="javascript.js"></script>
+</body>
+</html>
