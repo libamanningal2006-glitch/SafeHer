@@ -13,7 +13,7 @@
 - Member 2: Neha Maria Pullatt - Mar Athanasius College Of Engineering
 
 ### Hosted Project Link
-[mention your project hosted link here]
+[https://github.com/libamanningal2006-glitch/SafeHer.git]
 
 ### Project Description
 it is a women safety app which makes travel easier for women to provide so many safety measures which ensure women safety
@@ -71,98 +71,55 @@ List the key features of your project:
 
 #### Screenshots
 
-![alt text](image.png)login page
+![alt text](image.png)login page:
 *this is our login page where we enter our email id and password*
 
-![](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![alt text](image-1.png) dashboard:
+*this is our dashboard which shows all the features*
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![alt text](image-2.png) nearby police station:
+*shows police station nearby*
+![alt text](image-3.png) nearby hospital:
+*shows hospitals nearby*
+![alt text](image-4.png) harassment reporting:
+*we can report abuse here*
+
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+![Architecture Diagram](SafeHer_Architectural_Diagram_Improved.png)
 
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
 
 ---
 
-### For Hardware:
 
-#### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
-
-#### Build Photos
-
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
----
 
 ## Additional Documentation
 
 
 
-## AI Tools Used (Optional - For Transparency Bonus)
-
-If you used AI tools during development, document them here for transparency:
-
-**Tool Used:** [e.g., GitHub Copilot,ChatGPT,]
-
-**Purpose:** for coding and debugging
-functions"
-- Example: Code review and optimization suggestions
 
 
-**Percentage of AI-generated code:** [Approximately X%]
+
+
 
 **Human Contributions:**
 - Architecture design and planning
 - Custom business logic implementation
 - Integration and testing
-- UI/UX design decisions
 
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
 
 ---
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- Liba M: [Specific contributions - e.g., Frontend development, API integration.]
+- Neha Maria Pullatt: [Specific contributions - e.g., Frontend development, Design,testing etc.]
+
 
 ---
 
-## License
-
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
-
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
-
----
-
-Made with ❤️ at TinkerHub
